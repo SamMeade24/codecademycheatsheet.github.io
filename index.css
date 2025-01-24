@@ -1,0 +1,47 @@
+* {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    display: block;
+    background-color: darkgreen;
+    line-height: 1.5;
+}
+
+h1 {
+    color: gold;
+    background-color: forestgreen;
+    text-align: center;
+}
+
+h2 {
+    color: goldenrod;
+    background-color: forestgreen;
+    border: solid;
+    border-color: goldenrod;
+    text-align: center;
+    display: inline-flex;
+}
+
+table {
+    display: table;
+    background-color: seagreen;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    text-indent: 0%;
+    text-align: left;
+    border: 2px solid;
+    border-color: darkgoldenrod;
+    width: 100%;
+}
+
+th {
+    color: goldenrod;
+}
+
+th, 
+td {
+    border: solid;
+    border-color: darkgoldenrod;
+}
